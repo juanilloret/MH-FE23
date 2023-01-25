@@ -1,0 +1,29 @@
+body {
+    
+    font-family: sans-serif;
+    padding: 10px;
+    background-color: beige;
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+
+  summary{
+    font-weight: bold;
+    color: green;
+  }
+
+  summary:hover{
+    color: blue;
+  }
+
+  h1, h2{
+    text-decoration: underline;
+  }
