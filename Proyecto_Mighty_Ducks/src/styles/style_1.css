@@ -2,4 +2,64 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: antiquewhite;
+    }
+/* fuentes, contenido */
+body{
+    display: inline-block;
+}
+nav{
+    display: block;
+}
+nav a{
+    display: block;
+    margin-bottom: 60px;
+}
+.title_main{ /* añado la imagen como fondo del titulo */
+    /* text props. */
+    display: inline-block;
+    text-align: center;
+    font-size: 80px;
+    font-family: cursive;
+    color: #f1da08;
+    -webkit-text-stroke-width: 5px ;
+    -webkit-text-stroke-color: brown;
+    /* position, imgs, revisar */
+    background-image: url(../img/design1_image1.jpg);
+    object-fit: cover;
+    width: 1300px;
+    height: 300px;
+    border: 10px;
+    padding: 10px;
+    margin: 20px 100px 20px 100px;
+}
+.title_section{
+
+}
+article{
+
+}
+.article_events{ /* index */
+
+}
+.article_about{
+
+}
+.article_contact{
+
+}
+/* imagenes */
+.img_logo{
+    display: inline-block;
+    width: 120px;
+    object-fit: contain;
+}
+ .img_content{
+    display: inline;
+    padding: 10px;
+    width: 900px;
+    height: 600px;
+    object-fit: contain;
+    opacity: 0.5;
+    margin: 20px 600px;
 }
