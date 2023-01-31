@@ -8,43 +8,43 @@
 body{
     background-color: antiquewhite;
     display: inline-block;
-    width: auto;
     
 }
 header{
-    width: max-content;
-    
-    background-color: blue;
     display: inline-block;
-    background-image: url(../img/design1_image1.jpg);
+    height: 350px;
+    width: 2000px;
+    justify-content: center;
+/*  background-image: url(../img/design1_image1.jpg);
+    width: max-content;
     object-fit: cover;
     background-position: 20%;
-    
-    width: fit-content;
     height: 300px;
     border: 10px;
     padding: 10px;
-    margin: 20px 100px 20px 100px;
+    margin: 20px 100px 20px 50px; */
+    
 }
 nav{
     display: block;
     margin: 0;
-    background-color: blueviolet;
     width: fit-content;
     position: relative;
-    top: 300px;
+    top: 155px;
+    left: 300px;
 }
 nav a{
     display: block;
-    background-color: aquamarine;
     width:fit-content;
     margin-bottom: 60px;
+    font-family: cursive;
+    font-size: 18px;
+    /* text-decoration: none; */
 }
 .title_header{ /* añado la imagen como fondo del titulo */
     /* text props. */
     display: inline-block;
-    background-color: aquamarine;
-    
+    justify-content: center;
     top: 20px;
     right: 80px;
     text-align: center;
@@ -54,52 +54,48 @@ nav a{
     -webkit-text-stroke-width: 5px ;
     -webkit-text-stroke-color: brown;
     /* position, imgs, revisar */
-    /* background-image: url(../img/design1_image1.jpg);
+    background-image: url(../img/design1_image1.jpg);
     object-fit: cover;
     background-position: 20%;
     width: fit-content;
     height: 300px;
     border: 10px;
     padding: 10px;
-    margin: 20px 100px 20px 100px; */
+    margin: 20px 100px 0px 100px;
 }
-/* añadir background-color a cada caja */
+
 .title_section{
     background-color: black;
+    width: 1155px;
     color: white;
     text-align: center;
     font-family: cursive;
     position: relative;
-    bottom: 1530px;
+    bottom: 1460px;
+    left: 220px;
+    justify-content: center;
+    
 }
 article {
-    background-color: red;
-    position: absolute;
-    top: 1200;
-    left: 299;
-}
-.article_events{ /* index */
-    background-color: red;
     position: relative;
-    top: 1200;
-    left: 299;
-    z-index: 1;
+    left: 500px;
+    bottom: 1300px;
+    width: fit-content;
     font-family: cursive;
+    font-size: 18px;
 }
-.article_about{
 
+article h3{
+    font-style: italic;
 }
-.article_contact{
 
-}
 /* imagenes */
 .img_logo{
-    background-color: azure;
     display: inline-block;
     width: 120px;
     object-fit: contain;
     position: relative;
-    top: 220px;
+    top: 260px;
     left: 1100px;
     z-index: 1;
 }
