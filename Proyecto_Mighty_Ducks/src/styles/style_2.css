@@ -2,37 +2,126 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
+    
+    }
 /* fuentes, contenido */
+body{
+    background-color: antiquewhite;
+    display: inline-block;
+    
+}
+header{
+    display: inline-block;
+    height: 350px;
+    width: 2000px;
+    justify-content: center;
+    
+}
 nav{
+    display: inline;
+    margin: 0;
+    width: fit-content;
+    position: relative;
+    bottom: 90px;
+    right: 450px;
 
 }
 nav a{
+    display: inline-block;
+    width:fit-content;
+    background-color: #6363eb;
+    color: aliceblue;
+    margin-bottom: 60px;
+    margin-right: 20px;
+    font-family: cursive;
+    font-size: 24px;
+    border-color: black;
+    text-decoration: none;
+    /* border-radius: 1px; */
     
 }
-.title_main{
-    
+nav a:hover{
+    background-color: #aef543;
+    color: black;
 }
+/* nav a: click??? {
+    background-color: #aef543;
+    color: black;
+} */
+
+.title_header{ /* añado la imagen como fondo del titulo */
+    /* text props. */
+    display: inline-block;
+    justify-content: center;
+    top: 0px;
+    right: 80px;
+    text-align: center;
+    font-size: 80px;
+    font-family: cursive;
+    color: #f1da08;
+    -webkit-text-stroke-width: 5px ;
+    -webkit-text-stroke-color: brown;
+    /* position, imgs, revisar */
+    background-image: url(../img/design1_image2.jpg);
+    object-fit: cover;
+    background-position: 20%;
+    width: fit-content;
+    height: 300px;
+    border: 0px;
+    padding: 10px;
+    margin: 20px 100px 0px 100px;
+}
+
 .title_section{
-
-}
-article{
+    background-color: black;
+    width: 1155px;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    position: relative;
+    bottom: 75px;
+    left: 220px;
+    justify-content: center;
     
 }
-.article_events{ /* index */
-
+article {
+    position: relative;
+    left: 500px;
+    bottom: 20px;
+    width: fit-content;
+    font-family: cursive;
+    font-size: 18px;
 }
-.article_about{
 
+article h3{
+    font-style: italic;
 }
-.article_contact{
 
+article p{
+    width: 500px;
 }
+
 /* imagenes */
 .img_logo{
-
+    display: inline-block;
+    width: 120px;
+    object-fit: contain;
+    position: relative;
+    top: 360px;
+    left: 250px;
+    z-index: 1;
 }
-.img_content{
-
+ .img_content{
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    /*    display: inline-block;
+    padding: 10px;
+    width: 900px;
+    height: 600px;
+    object-fit: contain;
+    opacity: 0.5;
+    position: relative;
+    left: 300px;
+    z-index: 1; */
 }

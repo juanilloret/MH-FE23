@@ -71,7 +71,7 @@ nav a{
     text-align: center;
     font-family: cursive;
     position: relative;
-    bottom: 1460px;
+    bottom: 200px;
     left: 220px;
     justify-content: center;
     
@@ -79,7 +79,7 @@ nav a{
 article {
     position: relative;
     left: 500px;
-    bottom: 1300px;
+    bottom: 100px;
     width: fit-content;
     font-family: cursive;
     font-size: 18px;
@@ -87,6 +87,10 @@ article {
 
 article h3{
     font-style: italic;
+}
+
+article p{
+    width: 500px;
 }
 
 /* imagenes */
@@ -101,7 +105,9 @@ article h3{
 }
  .img_content{
     visibility: hidden;
- /*    display: inline-block;
+    width: 0px;
+    height: 0px;
+    /*    display: inline-block;
     padding: 10px;
     width: 900px;
     height: 600px;
