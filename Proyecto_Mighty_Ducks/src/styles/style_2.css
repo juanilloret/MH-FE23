@@ -11,19 +11,25 @@ body{
     
 }
 header{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
     display: inline-block;
     height: 350px;
-    width: 2000px;
+    width: 1500px;
     justify-content: center;
+    background-image: url(../img/design1_image2.jpg);
+    object-fit: cover;
+    background-position: 20%;
     
 }
 nav{
     display: inline;
     margin: 0;
-    width: fit-content;
+    /* width: fit-content; */
     position: relative;
-    bottom: 90px;
-    right: 450px;
+    bottom: 470px;
+    left: 1100px;
 
 }
 nav a{
@@ -35,59 +41,59 @@ nav a{
     margin-right: 20px;
     font-family: cursive;
     font-size: 24px;
+    text-decoration-line: none;
+    border-width: 2px;
+    border-style: solid;
     border-color: black;
-    text-decoration: none;
-    /* border-radius: 1px; */
+    box-shadow: black;
     
 }
 nav a:hover{
-    background-color: #aef543;
+    background-color: #90db1e;
     color: black;
 }
-/* nav a: click??? {
-    background-color: #aef543;
+/*  nav a:visited {
+    background-color: rgb(17, 201, 17);
     color: black;
 } */
 
-.title_header{ /* añado la imagen como fondo del titulo */
-    /* text props. */
-    display: inline-block;
-    justify-content: center;
-    top: 0px;
-    right: 80px;
-    text-align: center;
-    font-size: 80px;
+.title_header{ 
+    display: block;
+    position: relative;
+    bottom: 265px;
+    right: 110px;
+    text-align: left;
+    font-size: 75px;
     font-family: cursive;
+    font-style: italic;
     color: #f1da08;
     -webkit-text-stroke-width: 5px ;
     -webkit-text-stroke-color: brown;
-    /* position, imgs, revisar */
-    background-image: url(../img/design1_image2.jpg);
-    object-fit: cover;
-    background-position: 20%;
     width: fit-content;
     height: 300px;
     border: 0px;
     padding: 10px;
     margin: 20px 100px 0px 100px;
+    
 }
 
 .title_section{
     background-color: black;
-    width: 1155px;
+    width: 1500px;
     color: white;
     text-align: center;
     font-family: cursive;
     position: relative;
-    bottom: 75px;
-    left: 220px;
+    bottom: 150px;
+    left: 50px;
     justify-content: center;
     
 }
+
 article {
     position: relative;
     left: 500px;
-    bottom: 20px;
+    bottom: 100px;
     width: fit-content;
     font-family: cursive;
     font-size: 18px;
@@ -99,6 +105,8 @@ article h3{
 
 article p{
     width: 500px;
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
 
 /* imagenes */
@@ -107,7 +115,7 @@ article p{
     width: 120px;
     object-fit: contain;
     position: relative;
-    top: 360px;
+    top: 460px;
     left: 250px;
     z-index: 1;
 }
@@ -115,13 +123,4 @@ article p{
     visibility: hidden;
     width: 0px;
     height: 0px;
-    /*    display: inline-block;
-    padding: 10px;
-    width: 900px;
-    height: 600px;
-    object-fit: contain;
-    opacity: 0.5;
-    position: relative;
-    left: 300px;
-    z-index: 1; */
 }
