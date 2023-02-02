@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 0px;
     padding: 0;
     box-sizing: border-box;
     
@@ -8,7 +8,7 @@
 body{
     background-color: antiquewhite;
     display: inline-block;
-    
+    margin-left: 100px ;
 }
 header{
     margin-top: 100px;
