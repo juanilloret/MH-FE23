@@ -213,6 +213,13 @@ table th, td, tr{
 .container-article-rules>p{
     width: 100%;
 }
+.list-regulations{
+    margin-top: 10px;
+    list-style: decimal;
+}
+.list-regulations span{
+    font-weight: bolder;
+}
 ol{
     list-style-type: lower-alpha;
 }
