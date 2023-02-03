@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 0px;
     padding: 0;
     box-sizing: border-box;
     
@@ -8,7 +8,7 @@
 body{
     background-color: antiquewhite;
     display: inline-block;
-    
+    margin-left: 100px ;
 }
 header{
     margin-top: 100px;
@@ -45,7 +45,6 @@ nav a{
     border-width: 2px;
     border-style: solid;
     border-color: black;
-    box-shadow: black;
     
 }
 nav a:hover{
@@ -120,7 +119,7 @@ article p{
     z-index: 1;
 }
  .img_content{
-    visibility: hidden;
+    visibility: hidden; /*oculto la imagen para respetar el diseño*/
     width: 0px;
     height: 0px;
 }
