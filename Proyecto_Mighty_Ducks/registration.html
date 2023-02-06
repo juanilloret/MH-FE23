@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mighty Ducks Hockey League - Registration Form</title>
+    <!-- <link rel="stylesheet" href="./src/styles/style_1.css"> -->
+    <!-- <link rel="stylesheet" href="./src/styles/style_2.css"> -->
+    <link rel="stylesheet" href="./src/styles/style_3.css">
+    <link rel="icon" href="./src/img/favicon.ico">
+</head>
+<body class="container-flex">
+    <header class="container-header">
+        <img class="img_logo" src="./src/img/Logo.png" alt="Mighty Ducks logo">
+        <h1 class="title_header">Mighty Ducks Hockey League</h1>
+        <nav class="container-nav">
+            <a href="./index.html">HOME</a>
+            <a href="./about.html">About MDHL</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./information.html">Game Info</a>
+            <a href="./rules.html">Rules</a>
+            <a href="./registration.html">Registration Form</a>
+        </nav>
+    </header>
+    <main class="container-main">
+        <section class="container-section-registration">
+            <h2 class="title_section">Registration Form</h2>
+            <article class="container-article-registration">
+                <form action="./show_data.html" method="get" class="container-form">
+                   <label for="name">Player's First Name:</label>
+                   <input type="text" name="nombre" id="name">
+
+                   <label for="lastname">Last:</label>
+                   <input type="text" name="apellido" id="lastname">
+
+                   <label for="address">Street Address:</label>
+                   <input type="text" name="direccion" id="address">
+
+                   <label for="city">City:</label>
+                   <input type="text" name="ciudad" id="city">
+
+                   <label for="zipcode">Zip Code:</label>
+                   <input type="number" name="codigopostal" id="zipcode">
+
+                   <label for="birthdate">Birth Date(mm/dd/yyyy):</label>
+                   <input type="date" name="cumpleaños" id="birthdate">
+
+                   <label for="gender">Gender:</label>
+                   <input type="radio" name="genero" id="gender">
+                   
+                </form>
+            </article>
+        </section>
+
+    </main>
+ 
+
+</body>
+</html>

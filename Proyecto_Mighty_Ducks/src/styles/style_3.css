@@ -29,8 +29,8 @@ nav a{
     padding: 0px 15px 0 15px;
     background-color: rgb(245, 206, 100);
     color: rgb(7, 7, 2);
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
     font-family: cursive;
     font-size: 24px;
     text-decoration-line: none;
@@ -230,4 +230,12 @@ ul{
 dl dt{
     margin-top: 10px;
     font-weight: bolder;
+}
+
+/*registration*/
+
+.container-form{
+    
+    display: flex;
+    flex-flow: row wrap;
 }
