@@ -14,7 +14,7 @@ header{
     
     background-image: url(../img/design1_image2.jpg);
     object-fit: cover;
-    background-position: 20%;
+    background-position: 100%;
     min-width: 100%;
     max-width: 100%;
     min-height: 100%;
@@ -152,12 +152,13 @@ article p{
     width: 100%;
     background-color: antiquewhite;
     margin-bottom: -20px;
+    padding-left: 20;
 }
 
-.article-gameinfo h3, p, span{
-    margin-left: 20px;
+/* .article-gameinfo h3, p, span{ /margin esta causando scroll horizontal/
+     margin-left: 20px;
     
-}
+} */
 .article-gameinfo span{
     font-weight: bolder;
 }
@@ -178,15 +179,13 @@ table{
     font-size: 18px;
     margin-bottom: 50px;
     border-radius: 10px;
-    border: 1px solid black;
     background-color: rgba(121, 121, 87, 0.219);
 }
 table th, td, tr{
-    border: 1px solid black;
     padding: 10px;
     text-align: center;
 }
-.heading-forzado{
+.heading-forzado{ /*reemplazar por divs*/
     visibility: hidden;
 }
 /*rules.html estilo*/
@@ -235,7 +234,11 @@ dl dt{
 /*registration*/
 
 .container-form{
-    
+    min-width: 100%;
+    max-width: 100%;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5px;
 }
