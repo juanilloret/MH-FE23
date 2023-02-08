@@ -47,7 +47,7 @@
                         <input type="number" name="cod_postal" id="zipcode">
                     </fieldset>
                     
-                    <fieldset class="container-div-column">
+                    <fieldset class="container-flex-column">
                         <label for="birthdate">Birth Date(mm/dd/yyyy):</label>
                         <input type="date" name="fecha_nacimiento" id="birthdate">
                         
@@ -62,53 +62,68 @@
                         <p>Grade:</p>
                         <input type="radio" name="educacion" id="preescolar" value="preescolar"> 
                         <label for="preescolar">Pre-School</label>
-                        <label for="primero">1st</label>
                         <input type="radio" name="educacion" id="primero" value="primero">
-                        <label for="segundo">2nd</label>
+                        <label for="primero">1st</label>
                         <input type="radio" name="educacion" id="segundo" value="segundo">
-                        <label for="tercero">3rd</label>
+                        <label for="segundo">2nd</label>
                         <input type="radio" name="educacion" id="tercero" value="tercero">
-                        <label for="cuarto">4th</label>
+                        <label for="tercero">3rd</label>
                         <input type="radio" name="educacion" id="cuarto" value="cuarto">
-                        <label for="quinto">5th</label>
+                        <label for="cuarto">4th</label>
                         <input type="radio" name="educacion" id="quinto" value="quinto">
+                        <label for="quinto">5th</label>
                     </fieldset>
                    
                    <fieldset class="container-fieldset">
                        <legend>Which Elementary School do you live near?</legend>
                        <h3>Closest School:</h3>
-                       <div class="container-div-column">
+                       <div class="container-flex-column">
 
                            <fieldset class="container-fieldset-column">
-                               
-                               <label for="ajkatzenmaier">AJ Katzenmaier</label>
-                               <input type="radio" name="closestschool" id="ajkatzenmaier" value="ajkatzenmaier">
-                               <label for="greenbay">Greenbay</label>
-                               <input type="radio" name="closestschool" id="greenbay" value="greenbay">
-                               <label for="howardayeager">Howard A Yeager</label>
-                               <input type="radio" name="closestschool" id="howardayeager" value="howardayeager">
+                               <fieldset>
+
+                                   <label for="ajkatzenmaier">AJ Katzenmaier</label>
+                                   <input type="radio" name="closestschool" id="ajkatzenmaier" value="ajkatzenmaier">
+                                </fieldset>
+                                <fieldset>
+                                    <label for="greenbay">Greenbay</label>    
+                                    <input type="radio" name="closestschool" id="greenbay" value="greenbay">
+                                </fieldset>
+                                <fieldset>
+
+                                    <label for="howardayeager">Howard A Yeager</label>
+                                    <input type="radio" name="closestschool" id="howardayeager" value="howardayeager">
+                                </fieldset>
                             </fieldset>
                             <fieldset class="container-fieldset-column">
-                                
-                                <label for="marjoriephart">Marjorie P Hart</label>
-                                <input type="radio" name="closestschool" id="marjoriephart" value="marjoriephart">
-                                <label for="northelementary">North Elementary</label>
-                                <input type="radio" name="closestschool" id="northelementary" value="northelementary">
-                                <label for="southelementary">South Elementary</label>
-                                <input type="radio" name="closestschool" id="southelementary" value="southelementary">
+                                <fieldset>
+
+                                    <label for="marjoriephart">Marjorie P Hart</label>
+                                    <input type="radio" name="closestschool" id="marjoriephart" value="marjoriephart">
+                                </fieldset>
+                                <fieldset>
+
+                                    <label for="northelementary">North Elementary</label>
+                                    <input type="radio" name="closestschool" id="northelementary" value="northelementary">
+                                </fieldset>
+                                <fieldset>
+
+                                    <label for="southelementary">South Elementary</label>
+                                    <input type="radio" name="closestschool" id="southelementary" value="southelementary">
+                                </fieldset>
                             </fieldset>
                         </div>
                     </fieldset>
                     <fieldset class="container-fieldset">
                         <legend>What position(s) do you normally play? (check all that apply)</legend>
-                        <fieldset class="container-div-column">
+                        <fieldset class="container-flex-column">
                             
                             <label for="forward">Forward</label>
                             <input type="checkbox" name="position" id="forward" value="Forward">
                             <label for="midfield">Midfield</label>
                             <input type="checkbox" name="position" id="midfield" value="midfield">
                         </fieldset>
-                        <fieldset class="container-div-column">
+                        <fieldset class="container-flex-column">
 
                             <label for="defense">Defense</label>
                             <input type="checkbox" name="position" id="defense" value="defense">
@@ -117,9 +132,9 @@
                         </fieldset>
                     </fieldset>
                     
-                    <fieldset class="container-talles">
+                    <fieldset class="container-flex-column">
                         <legend>Uniform Size:</legend>
-                        <fieldset class="container-div-column columna-talles">
+                        <fieldset class="container-fieldset-column">
                            <fieldset>
 
                                <label for="youthsmall">Youth Small</label>
@@ -141,7 +156,7 @@
                                 <input type="radio" name="uniformsize" id="small" value="small">
                             </fieldset>
                         </fieldset>
-                        <fieldset class="container-div-column columna-talles">
+                        <fieldset class="container-fieldset-column">
 
                             <fieldset>
 
