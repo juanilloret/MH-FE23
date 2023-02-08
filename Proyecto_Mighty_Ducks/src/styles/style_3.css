@@ -311,7 +311,10 @@ input[type=text], input[type=number], input[type=date] {
     width: 50%;
     
 }
-
+.container-educacion{
+    display: flex;
+    align-items: center;
+}
 .container-fieldset>h3{
     font-size: 16px;
     
