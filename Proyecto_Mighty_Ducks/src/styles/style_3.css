@@ -324,8 +324,12 @@ input[type=text], input[type=number], input[type=date] {
     
     flex-direction: row;
 }
-.container-uniform{
+.container-talles{
     display: flex;
+    flex-direction: row;
+   
+}
+.columna-talles{
     flex-direction: column;
 }
 #articlepermission{
