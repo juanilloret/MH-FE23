@@ -5,13 +5,9 @@
     }
 /* fuentes, contenido */
 body{
-
     background-color: antiquewhite;
-    margin: 0px ;
 }
 header{
-
-    
     background-image: url(../img/design1_image2.jpg);
     object-fit: cover;
     background-position: 100%;
@@ -21,7 +17,7 @@ header{
     max-height: 300px;
 }
 nav{
-    margin: 0;
+    
     width: fit-content;
 }
 nav a{
@@ -80,14 +76,14 @@ section{
     justify-content: center;
     align-items: center;
 }
-article {
+article, div {
     width: fit-content;
     font-family: cursive;
     font-size: 18px;
     margin-bottom: 50px;
     border-radius: 10px;
     /* border: 1px solid black; */
-    background-color: rgba(121, 121, 87, 0.219);
+    /* background-color: rgba(121, 121, 87, 0.219); */
 }
 
 article h3{
@@ -105,14 +101,19 @@ article p{
     display: inline-block;
     width: 150px;
     object-fit: contain;
-    position: relative;
+    position: sticky;
     top: 170px;
-    left: calc(100% - 700px);
+    right: calc(100% - 300px);
+}
+.container-imagenes{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
 }
  .img_content{ 
-    visibility: hidden; /*oculto la imagen para respetar el diseño*/
-    width: 0px;
-    height: 0px;
+    width: 400px;
+    height: 300px;
 }
 /* flexbox */
 .container-flex{
@@ -151,8 +152,9 @@ article p{
 .article-gameinfo{
     width: 100%;
     background-color: antiquewhite;
-    margin-bottom: -20px;
-    padding-left: 20;
+   /*  margin-bottom: -20px; */
+    padding-left: 20px;
+   
 }
 
 /* .article-gameinfo h3, p, span{ /margin esta causando scroll horizontal/
@@ -164,6 +166,7 @@ article p{
 }
 .article-gameinfo>p{
     width: 100%;
+    margin-top: 20px;
 }
 
 .subtitle{
@@ -179,7 +182,7 @@ table{
     font-size: 18px;
     margin-bottom: 50px;
     border-radius: 10px;
-    background-color: rgba(121, 121, 87, 0.219);
+   /*  background-color: rgba(121, 121, 87, 0.219); */
 }
 table th, td, tr{
     padding: 10px;
@@ -233,7 +236,7 @@ dl dt{
 
 /*registration*/
 
-.container-form{
+/* .container-form{
     min-width: 100%;
     max-width: 100%;
     display: flex;
@@ -241,4 +244,97 @@ dl dt{
     justify-content: center;
     align-items: flex-start;
     padding: 5px;
+} */
+
+/*information.html mapas*/
+.container-article-maps{
+    display: flex;
+    flex-flow: row wrap;
+   
 }
+@media (max-width: 600px) { /*media query test*/
+    *{
+        background-color: #000000;
+        color: antiquewhite;
+    }
+    .container-flex{
+        display: flex;
+        flex-flow: column nowrap;
+       
+    }
+
+}
+.container-div-maps{
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    
+    margin: 0;
+}
+.container-header-maps{
+    text-decoration: underline;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+   
+}
+.container-figure-maps{
+    width: 50%;
+    flex-direction: column;
+   
+    padding: 5px;
+}
+.anchor-maps{
+    font-family: cursive;
+    color: red;
+}
+
+/*registration.html form style*/
+.container-form>div, fieldset{
+    
+    border: 0;
+    
+    padding: 0px 30px 0 0;
+}
+
+.container-form>legend{
+    font-weight: bold;
+}
+input[type=text], input[type=number], input[type=date] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+.container-fieldset{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+}
+
+.container-fieldset>h3{
+    font-size: 16px;
+    
+}
+.container-div-column{
+    display: flex;
+    flex-direction: row;
+}
+.container-fieldset-column{
+    
+    flex-direction: row;
+}
+.container-uniform{
+    display: flex;
+    flex-direction: column;
+}
+#articlepermission{
+    width: 100%; 
+    
+    text-align: left;
+    
+}
+ fieldset, label{
+    margin: 5px 0px 10px 10px;
+ }
+ 
