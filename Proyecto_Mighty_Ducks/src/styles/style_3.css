@@ -5,23 +5,19 @@
     }
 /* fuentes, contenido */
 body{
-
     background-color: antiquewhite;
-    margin: 0px ;
 }
 header{
-
-    
     background-image: url(../img/design1_image2.jpg);
     object-fit: cover;
-    background-position: 20%;
+    background-position: 100%;
     min-width: 100%;
     max-width: 100%;
     min-height: 100%;
     max-height: 300px;
 }
 nav{
-    margin: 0;
+    
     width: fit-content;
 }
 nav a{
@@ -29,8 +25,8 @@ nav a{
     padding: 0px 15px 0 15px;
     background-color: rgb(245, 206, 100);
     color: rgb(7, 7, 2);
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
     font-family: cursive;
     font-size: 24px;
     text-decoration-line: none;
@@ -80,14 +76,14 @@ section{
     justify-content: center;
     align-items: center;
 }
-article {
+article, div {
     width: fit-content;
     font-family: cursive;
     font-size: 18px;
     margin-bottom: 50px;
     border-radius: 10px;
     /* border: 1px solid black; */
-    background-color: rgba(121, 121, 87, 0.219);
+    /* background-color: rgba(121, 121, 87, 0.219); */
 }
 
 article h3{
@@ -105,14 +101,19 @@ article p{
     display: inline-block;
     width: 150px;
     object-fit: contain;
-    position: relative;
+    position: sticky;
     top: 170px;
-    left: calc(100% - 700px);
+    right: calc(100% - 300px);
+}
+.container-imagenes{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
 }
  .img_content{ 
-    visibility: hidden; /*oculto la imagen para respetar el diseño*/
-    width: 0px;
-    height: 0px;
+    width: 400px;
+    height: 300px;
 }
 /* flexbox */
 .container-flex{
@@ -151,18 +152,21 @@ article p{
 .article-gameinfo{
     width: 100%;
     background-color: antiquewhite;
-    margin-bottom: -20px;
+   /*  margin-bottom: -20px; */
+    padding-left: 20px;
+   
 }
 
-.article-gameinfo h3, p, span{
-    margin-left: 20px;
+/* .article-gameinfo h3, p, span{ /margin esta causando scroll horizontal/
+     margin-left: 20px;
     
-}
+} */
 .article-gameinfo span{
     font-weight: bolder;
 }
 .article-gameinfo>p{
     width: 100%;
+    margin-top: 20px;
 }
 
 .subtitle{
@@ -178,15 +182,13 @@ table{
     font-size: 18px;
     margin-bottom: 50px;
     border-radius: 10px;
-    border: 1px solid black;
-    background-color: rgba(121, 121, 87, 0.219);
+   /*  background-color: rgba(121, 121, 87, 0.219); */
 }
 table th, td, tr{
-    border: 1px solid black;
     padding: 10px;
     text-align: center;
 }
-.heading-forzado{
+.heading-forzado{ /*reemplazar por divs*/
     visibility: hidden;
 }
 /*rules.html estilo*/
@@ -231,3 +233,107 @@ dl dt{
     margin-top: 10px;
     font-weight: bolder;
 }
+
+/*registration*/
+
+/* .container-form{
+    min-width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5px;
+} */
+
+/*information.html mapas*/
+.container-article-maps{
+    display: flex;
+    flex-flow: row wrap;
+   
+}
+@media (max-width: 600px) { /*media query test*/
+    *{
+        background-color: #000000;
+        color: antiquewhite;
+    }
+    .container-flex{
+        display: flex;
+        flex-flow: column nowrap;
+       
+    }
+
+}
+.container-div-maps{
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    
+    margin: 0;
+}
+.container-header-maps{
+    text-decoration: underline;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+   
+}
+.container-figure-maps{
+    width: 50%;
+    flex-direction: column;
+   
+    padding: 5px;
+}
+.anchor-maps{
+    font-family: cursive;
+    color: red;
+}
+
+/*registration.html form style*/
+.container-form>div, fieldset{
+    
+    border: 0;
+    
+    padding: 0px 30px 0 0;
+}
+
+.container-form>legend{
+    font-weight: bold;
+}
+input[type=text], input[type=number], input[type=date] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+.container-fieldset{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+}
+.container-educacion{
+    display: flex;
+    align-items: center;
+}
+.container-fieldset>h3{
+    font-size: 16px;
+    
+}
+.container-flex-column{
+    display: flex;
+    flex-direction: row;
+}
+.container-fieldset-column{
+    
+    flex-direction: column;
+}
+
+#articlepermission{
+    width: 90%; 
+    text-align: left;
+    padding-left: 10px;
+}
+ fieldset, label{
+    margin: 5px 0px 10px 10px;
+ }
+ 
