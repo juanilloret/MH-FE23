@@ -3,10 +3,14 @@
     padding: 0;
     box-sizing: border-box;  
 }
+
 .container{
     min-height: 100vh;
+    min-width: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 10px;
 }
 .card-img-top{
     height: 200px;
@@ -21,3 +25,10 @@
     .row{
         border: 1px solid greenyellow;
     }
+    footer{
+        min-width: 100vh;
+    }
+    .icon-instagram:hover{
+        color:green;
+        cursor:pointer;
+      }
